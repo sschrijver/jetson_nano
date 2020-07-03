@@ -2,6 +2,8 @@
 
 set -e
 
+. ~/.bash_profile
+
 folder=${HOME}/src
 mkdir -p $folder
 
