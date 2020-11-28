@@ -33,8 +33,6 @@ make install
 ldconfig
 
 echo "** Update python3 protobuf module"
-# remove previous installation of python3 protobuf module
-pip3 uninstall -y protobuf
 pip3 install Cython
 cd python/
 python3 setup.py build --cpp_implementation
