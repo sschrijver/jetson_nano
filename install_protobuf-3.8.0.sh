@@ -34,8 +34,8 @@ ldconfig
 
 echo "** Update python3 protobuf module"
 # remove previous installation of python3 protobuf module
-pip uninstall -y protobuf
-pip install Cython
+pip3 uninstall -y protobuf
+pip3 install Cython
 cd python/
 python3 setup.py build --cpp_implementation
 python3 setup.py test --cpp_implementation
